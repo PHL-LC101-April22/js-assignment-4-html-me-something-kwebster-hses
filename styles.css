@@ -1,15 +1,45 @@
 /* Write your CSS here! */
 body{
-    background-color: yellow
+    background-color: black;
+    font-size: 30px;
+    margin: 8px
   
   }
   h1 {
      font-size: 36px;
+     
   }
+  h2 {
+   font-size: 32px;
+}
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ div {
+   border: 1px solid red;
+   margin-left: auto;
+   margin-right:auto;
+ }
+ 
+ p.ex1 {
+   margin-left: inherit;
+   margin-right:inherit
+ }
   .center {
      text-align: center;
   }
   #list-color {
-     color: blueviolet;
+     color:violet
      
+  }
+  #mainHeading {
+   color: red
+  }
+  .funparagraph{
+   text-align:center;
+  }
+  #test-p{
+   color:green;
   }
